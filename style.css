@@ -19,10 +19,49 @@ body {
     background-color: #3C338A;
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: flex-start;
     text-align: center;
+    color: rgb(238, 238, 238);
+    /* text-align: center; */
+    text-align: left;
   }
 
+
   .main-office {
-      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(46, 38, 112);
+    width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    margin-bottom: 12%;
+    cursor: pointer;
+  }
+
+  .yellow-btn {
+      background: rgb(210, 162, 30);
+      padding: 3%;
+      border-radius: 2px;
+      margin-right: 3%;
+      font-weight: bold;
+}
+
+  .item {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: rgb(62, 53, 143);
+    /* position: absolute;
+    left: 10%; */
+    padding-left: 38%;
+  }
+
+  .item img {
+      position: absolute;
+      left: 5%;
+  }
+
+  .item:hover {
+    background-color: rgb(68, 59, 151);
+    cursor: pointer;
   }
