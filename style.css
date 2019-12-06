@@ -1,0 +1,28 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: [inicio] 1fr [linea2] 1fr [linea3] 1fr [linea4] 1fr [linea5] 1fr[final];
+    grid-template-rows: [inicioVertical] 1fr [lineaVertical2] 1fr [finalVertical];
+    /* grid-gap: 5px; */
+    height: 100vh;
+}
+
+/* side bar */
+.sidebar{
+    grid-column: inicio / linea2;
+    grid-row: inicioVertical / finalVertical;
+    background-color: #3C338A;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    text-align: center;
+  }
+
+  .main-office {
+      
+  }
